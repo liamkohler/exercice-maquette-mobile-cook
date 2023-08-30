@@ -20,7 +20,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
-  border: solid 1px #aaa;
+  border: solid 1px #9aa;
 }
 
 a {
@@ -38,7 +38,7 @@ video {
   padding: 25px;
   word-spacing: 10px;
   font-family: 'Libre Franklin', sans-serif;
-  border-bottom: solid 1px #aaa;
+  border-bottom: solid 1px #9aa;
 }
 
 .daily-recipie {
@@ -67,5 +67,56 @@ p {
   margin: 15px;
 }
 
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Sorts Mill Goudy', serif;
+.jerelle {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.cook-list {
+  background-color: #dee;
+  padding: 15px;
+}
+
+.list-title {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: start;
+  border-bottom: solid 2px black;
+  margin-top: 15px;
+}
+
+.recipe {
+  margin-top: 15px;
+  background-color: #fff;
+  border: solid 1px #9aa;
+}
+
+.recipe p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: start;
+  padding: 30px 10px;
+}
+
+footer h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size:  16px;
+}
